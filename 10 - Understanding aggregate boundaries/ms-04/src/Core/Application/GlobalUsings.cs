@@ -1,0 +1,17 @@
+global using DevPrime.Stack.Foundation.Application;
+global using DevPrime.Stack.Foundation;
+global using System;
+global using System.Linq;
+global using System.Collections.Generic;
+global using Application.Interfaces.Services;
+global using Application.Interfaces.Adapters.State;
+global using Application.Interfaces.Adapters.Extensions;
+global using Application.Services.User.Model;
+global using Application.EventHandlers.User;
+global using Domain.Aggregates.User.Events;
+global using Application.Services.UserLicense.Model;
+global using Application.EventHandlers.UserLicense;
+global using Domain.Aggregates.UserLicense.Events;
+global using Application.Services.License.Model;
+global using Application.EventHandlers.License;
+global using Domain.Aggregates.License.Events;
